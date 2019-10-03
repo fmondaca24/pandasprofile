@@ -8,7 +8,7 @@ Created on Thu Oct  3 09:56:56 2019
 import pandas as pd
 import pandas_profiling
 
-greenhouse_data = pd.read_csv('data_greenhouse.csv')
+greenhouse_data = pd.read_csv('https://raw.githubusercontent.com/fmondaca24/pandasprofile/master/data_greenhouse.csv')
 profile = pandas_profiling.ProfileReport(greenhouse_data)
 profile.to_file('./report.html')
 
