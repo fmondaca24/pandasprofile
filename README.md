@@ -49,4 +49,7 @@ profile.to_file('./report.html')
 ```
 In this case I am creating an html file with the report, but can also interact with jupyter notebook
 
+[You can see how the report looks like here](http://htmlpreview.github.io/?https://raw.githubusercontent.com/fmondaca24/pandasprofile/master/report.html)
+
+
 
